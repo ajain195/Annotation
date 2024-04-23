@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Read the VCF file into a DataFrame
-vcf_file = r"D:\rayca_pre\test\1.vcf"
+vcf_file = r"D:\wellytics\test\1.vcf"
 df = pd.read_csv(vcf_file, sep='\t', comment='#', header=None)
 
 # Define column names
